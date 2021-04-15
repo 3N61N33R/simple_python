@@ -108,4 +108,6 @@ def divSum(num) :
     # a divisor
     print(result + 1)
     return result + 1
-    
+
+# Driver program to run the case
+print (divSum(36))

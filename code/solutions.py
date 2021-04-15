@@ -27,3 +27,32 @@ def prime_factors(number):
     return "Done"
 
 prime_factors(100)
+
+# Sum of divisors
+def sum_divisors(n):
+    # Return the sum of all divisors of n, not including n
+    sum = 0
+    i = 1
+    
+    # res = n % i
+    # if n % i == 0 and i < n:
+    #   while n != 0:
+    #     sum = sum + i
+    #     print("<><><>", sum)
+    #   i += 1
+
+    x = 1
+    while n != 0 and x < n :   
+        if n % x == 0  :
+        sum += x
+        else:
+        sum += 0
+        x += 1    
+    
+    return sum
+
+    # while res == 0 and i < n:
+    #   sum += i
+    #   i += 1
+    # if n % i == 0:
+    return sum
